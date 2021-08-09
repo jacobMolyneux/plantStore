@@ -6,12 +6,12 @@ const ProductCard = (props) => {
   return (
     <div id="cardContainer">
       <div id="cardImageHolder">
-        <img src={props.image} alt="productimage"></img>
+        <img id="plantImage" src={props.image} alt="productimage"></img>
       </div>
       <div id="detailsContainer">
         <h1 id="productName">{props.name}</h1>
         <p id="productDescription">Description</p>
-        <p>Price</p>
+        <p>$ {props.price}</p>
         <div id="quantityDiv">
           <button
             id="increaseButton"

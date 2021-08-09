@@ -1,9 +1,21 @@
 #bannerImageHolder {
-  display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
-#homepagebanner {
+#imageItems {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+#bannerText {
+  font-weight: bold;
+  font-size: 40px;
 }
 #cardsContainer {
   display: flex;
@@ -12,7 +24,7 @@
   padding: 10px;
 }
 .ShopNowButton {
-  z-index: -1;
+  z-index: 1;
   width: 150px;
   height: 100px;
   background: green;

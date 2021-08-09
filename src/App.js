@@ -9,17 +9,23 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+        <div id="navContainer">
           <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
+            <ul id="listContainer">
+              <li className="navItem">
+                <Link to="/" className="linkText">
+                  Home
+                </Link>
               </li>
-              <li>
-                <Link to="/about">About</Link>
+              <li className="navItem">
+                <Link to="/about" className="linkText">
+                  About
+                </Link>
               </li>
-              <li>
-                <Link to="/Catalog">Users</Link>
+              <li className="navItem">
+                <Link to="/Catalog" className="linkText">
+                  Users
+                </Link>
               </li>
             </ul>
           </nav>
