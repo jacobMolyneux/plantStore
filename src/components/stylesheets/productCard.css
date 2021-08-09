@@ -1,0 +1,32 @@
+#cardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+#quantityDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.quantityButton {
+  width: 50px;
+  font-size: 20px;
+  color: white;
+  background: green;
+  border: 2px solid transparent;
+  margin: 3px;
+}
+#quantityChosen {
+  font-size: 20px;
+  margin: 3px;
+}
+.quantityButton:hover {
+  background: white;
+  color: green;
+  border: 2px solid green;
+}

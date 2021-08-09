@@ -1,0 +1,21 @@
+#bannerImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#homepagebanner {
+}
+#cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+}
+.ShopNowButton {
+  z-index: -1;
+  width: 150px;
+  height: 100px;
+  background: green;
+  color: white;
+  font-size: 20px;
+}
