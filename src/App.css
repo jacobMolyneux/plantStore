@@ -16,6 +16,12 @@ nav {
 }
 .linkText {
   font-size: 24px;
-  color: green;
+  color: rgb(255, 175, 175);
   font-weight: bold;
+}
+.linkText:hover {
+  color: black;
+}
+#shoppingCart {
+  width: 30px;
 }

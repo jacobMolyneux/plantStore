@@ -25,6 +25,7 @@ const Homepage = () => {
         <ProductCard name="Plant 2" image={Monstera} price={175.0} />
         <ProductCard name="Plant 3" image={anotherPlant} price={49.99} />
       </div>
+      <button id="seeCatalogButton"> See More Products</button>
     </div>
   );
 };
