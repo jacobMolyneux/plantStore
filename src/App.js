@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Catalog from "./components/catalog";
 import AboutPage from "./components/AboutPage";
 import cartIcon from "./components/plantImages/shopping-cart.png";
+import ShoppingCart from "./components/cart.js";
 
+const shoppingCart = [];
 function App() {
   return (
     <div className="App">
@@ -31,7 +33,9 @@ function App() {
               </li>
               <li className="navItem">
                 <div id="cartIcon">
-                  <img id="shoppingCart" src={cartIcon} alt="cart " />
+                  <Link to="/Cart" className="linkText">
+                    <img id="shoppingCart" src={cartIcon} alt="cart " />
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -45,6 +49,9 @@ function App() {
             </Route>
             <Route path="/users">
               <Catalog />
+            </Route>
+            <Route path="/Cart">
+              <ShoppingCart />
             </Route>
             <Route path="/">
               <Homepage />
@@ -83,4 +90,5 @@ function App() {
     </div>
   );
 }
+export { shoppingCart };
 export default App;

@@ -1,5 +1,5 @@
 import React from "react";
-import plantBannerImage from "./plantImages/plantBannerImage.jpg";
+import plantBannerImage from "./otherImages/house-plant-in-white-pot.jpg";
 import "./stylesheets/homepage.css";
 import ProductCard from "./productCards";
 import EvergreenTree from "./plantImages/Artificial+Evergreen+Tree+in+Pot.jpeg";
